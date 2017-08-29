@@ -1,0 +1,2 @@
+module AdministratorModuleHelper
+end

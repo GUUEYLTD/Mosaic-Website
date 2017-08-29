@@ -1,0 +1,2 @@
+module CommunicationModuleHelper
+end

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bootstrap1</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <% if current_page?(root_path) %>
+      <%= render 'layouts/home_header' %>
+    <% else %>
+      <%= render 'layouts/header' %>
+    <% end %>
+    <%= yield %>
+    <%= render 'layouts/footer' %>
+  </body>
+
+</html>

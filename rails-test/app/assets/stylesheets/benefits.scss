@@ -1,0 +1,74 @@
+// Place all the styles related to the benefits controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.features-content-section {
+  background-color: #f5f7fa;
+}
+
+.features-content-section .row {
+  margin: -110px 100px 100px 100px;
+}
+
+.features-content-section .card {
+  padding: 30px;
+  border-radius: 2px;
+  background-color: #ffffff;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+  margin: 30px;
+  height: calc(100% - 60px);
+}
+
+.features-content-section .card img {
+  text-align: center;
+  margin: auto;
+  padding-bottom: 30px;
+  min-height: 96px;
+}
+
+.features-content-section .card h4 {
+  font-size: 20px;
+  text-align: center;
+  color: #434a54;
+  margin-bottom: 13px;
+}
+
+.features-content-section .card p {
+  font-size: 14px;
+  line-height: 1.57;
+  text-align: center;
+  color: #838c98;
+}
+
+.features-content-section .top-row .col-md-12 {
+  text-align: center;
+}
+
+.features-content-section .bottom-row {
+  background-color: #FFFFFF;
+  margin: 100px;
+}
+
+.features-content-section .bottom-row > * {
+  padding: 30px;
+}
+
+.features-content-section .bottom-row img {
+  max-height: 100px;
+  border-radius: 50%;
+  float: right;
+}
+
+.features-content-section .bottom-row h3 {
+  margin-top: 0px;
+  font-size: 24px;
+  text-align: left;
+  color: #434a54;
+}
+
+.features-content-section .bottom-row p {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: left;
+  color: #838c98;
+}

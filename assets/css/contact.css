@@ -1,0 +1,115 @@
+.contact-content-section {
+  background-color: #f5f7fa;
+}
+
+.contact-content-section .row {
+  margin: -90px 0px 100px 0px;
+}
+
+.contact-content-section .row .col-md-6 {
+  padding: 30px;
+}
+
+.contact-content-section .row .col-md-6 .contents {
+  background-color: #FFFFFF;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+}
+
+.contact-content-section .row .col-md-6 .contents p {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #838c98;
+}
+
+@media screen and (max-width: 1144px) and (min-width: 992px) {
+  .contact-content-section .row .col-md-6 .contents p {
+    font-size: 14px;
+  }
+}
+
+.contact-content-section .row .col-md-6 .contents p a {
+  white-space: nowrap;
+  font-weight: normal;
+}
+
+.contact-content-section .contact-address {
+  padding-top:45px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+}
+
+.contact-content-section .row .col-md-6:first-child .contents {
+  padding: 50px;
+}
+
+.contact-content-section h2 {
+  margin-top: 0px;
+  margin-bottom: 30px;
+  font-size: 36px;
+  font-weight: 300;
+  text-align: left;
+  color: #434a54;
+}
+
+.contact-content-section input:not(:last-child), .contact-content-section textarea {
+  width: 100%;
+  height: 47px;
+  border-radius: 2px;
+  background-color: #e6e9ed;
+  font-size: 14px;
+  text-align: left;
+  color: #838c98;
+  margin-bottom: 10px;
+  border: none;
+}
+
+textarea {
+  min-height: 200px;
+}
+
+#contact-divider {
+  margin-top: 50px;
+  margin-bottom: 40px;
+  background-color: #e6e9ed;
+}
+
+.google-maps {
+  position: relative;
+  padding-bottom: 75%; // This is the aspect ratio
+  height: 0;
+  overflow: hidden;
+}
+
+.google-maps iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.contact-address {
+  padding: 40px 50px 40px 50px;
+}
+
+.contact-address p {
+  padding: 0px;
+  margin: 0px;
+}
+
+.contact-social-links {
+  margin-top: 60px;
+  padding: 36px 64px 36px 64px;
+}
+
+.contact-social-links a {
+  padding: 0;
+  margin:0;
+  padding-right: 5px;
+}
+
+.contact-content-section form {
+  text-align: center;
+}

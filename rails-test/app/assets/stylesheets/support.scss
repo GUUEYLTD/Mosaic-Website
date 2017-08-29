@@ -1,0 +1,47 @@
+// Place all the styles related to the support controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.support-content-section {
+  background-color: #f5f7fa;
+}
+
+.support-content-section .row {
+  margin: -150px 100px 100px 100px;
+}
+
+.support-content-section .row > * {
+  padding: 90px;
+}
+
+.list-group.panel > .list-group-item {
+  border-radius: 2px;
+  background-color: #ffffff;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+}
+
+.support-content-section .row .col-md-8 .contents {
+  padding: 30px;
+  border-radius: 2px;
+  background-color: #ffffff;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+}
+
+.support-content-section .row .col-md-8 .contents h2{
+  font-size: 24px;
+  text-align: left;
+  color: #434a54;
+  margin-bottom: 32px;
+}
+
+.support-content-section .row .col-md-8 .contents h3 {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.63;
+  text-align: left;
+  color: #434a54;
+  margin-bottom: 12px;
+}
+
+.support-content-section .row .col-md-8 .contents p {
+  margin-bottom: 32px;
+}

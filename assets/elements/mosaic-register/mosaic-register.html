@@ -1,0 +1,287 @@
+<link rel="import" href="./bower_components/polymer/polymer.html">
+<link rel="import" href="./bower_components/polymerfire/firebase-app.html" />
+<link rel="import" href="./bower_components/polymerfire/firebase-auth.html" />
+<link rel="import" href="./bower_components/polymerfire/firebase-document.html" />
+<link rel="import" href="./bower_components/paper-button/paper-button.html" />
+<link rel="import" href="./bower_components/iron-collapse/iron-collapse.html" />
+<!--
+`mosaic-register`
+registration element for sales site.
+
+@demo demo/index.html
+-->
+
+<dom-module id="mosaic-register">
+  <template>
+
+    <firebase-app
+      name="main"
+      auth-domain="mosaic-care-5cea8.firebaseapp.com"
+      api-key="AIzaSyCQDIr1UXMVtl1n-6kYKv_VEPTGTk11QLI"
+      database-url="https://mosaic-care-5cea8.firebaseio.com">
+    </firebase-app>
+
+    <firebase-auth
+      id="auth"
+      app-name="main"
+      user="{{user}}"
+      signed-in="{{signedIn}}"
+      status-known="{{statusKnown}}"
+      on-error="handleError">
+    </firebase-auth>
+
+    <firebase-document
+      id="homeDB"
+      app-name="main">
+    </firebase-document>
+
+    <firebase-document
+      id="homeIndexDB"
+      app-name="main">
+    </firebase-document>
+
+    <firebase-document
+      id="userDB"
+      app-name="main">
+    </firebase-document>
+
+    <firebase-document
+      id="userIndexDB"
+      app-name="main">
+    </firebase-document>
+
+
+
+    <style>
+      :host {
+        display: block;
+        background-color: transparent;
+      }
+
+      .flex-container {
+        display: flex;
+        flex-direction: row;
+      }
+
+      .form-inline > * {
+        margin-left: 5px;
+        margin-right: 5px;
+      }
+
+      input:nth-child(2) {
+        margin-left: 0px;
+      }
+
+      input {
+        width: 190px;
+        height: 47px;
+        border-radius: 2px;
+        background-color: #434a54;
+        border: none;
+        margin-right: 5px;
+        color: #FFFFFF;
+        margin-left: 0px;
+      }
+
+      .button-blurb-container {
+        margin: 0;
+        padding: 0;
+        display: inline-block;
+      }
+
+      .form-inline {
+        display: flex;
+        flex-direction: row;
+        align-items: top;
+      }
+
+      #home-header-blurb {
+        margin-top: 5px;
+        margin-bottom: 0px;
+        font-size: 11px;
+        text-align: right;
+        color: #656d78;
+      }
+
+      .mosaic-action-button {
+         text-transform: uppercase;
+         border-radius: 2px;
+         width: 168px;
+         height: 47px;
+         background-color: #186ddd;
+         font-size: 12px;
+         font-weight: bold;
+         letter-spacing: 0.9px;
+         color: #FFFFFF;
+         box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+         border: none;
+       }
+
+       iron-collapse p {
+         color: #FFFFFF;
+       }
+
+    </style>
+
+    <div class="form-inline">
+
+      <label class="sr-only" for="inlineFormInput">Email</label>
+
+      <input on-keydown="checkForEnter" type="email" class="form-control mb-2 mr-sm-2 mb-sm-0" placeholder="Email" type="email" value="{{username::input}}">
+
+      <label class="sr-only" for="inlineFormInputGroup">Password</label>
+
+      <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+
+        <input on-keydown="checkForEnter" type="password" class="form-control" placeholder="Password" type="password" value="{{password::input}}">
+
+      </div>
+
+      <div class="button-blurb-container">
+        <button on-tap="createNewAccount" class="btn btn-primary mosaic-action-button">sign up for free <span class="glyphicon glyphicon-chevron-right"></span></button>
+        <p id="home-header-blurb">
+          No credit card needed.
+        </p>
+      </div>
+
+    </div>
+
+    <iron-collapse opened id="infoArea">
+      <p>
+        {{info}}
+      </p>
+    </iron-collapse>
+
+  </template>
+
+  <script>
+
+    Polymer({
+
+      is: 'mosaic-register',
+
+      properties: {
+
+        username: {
+          type: String,
+          value: null
+        },
+
+        password: {
+          type: String,
+          value: null
+        },
+
+        homeUID: {
+          type: String,
+          value: null
+        },
+
+        info: {
+          type: String,
+          value: null,
+          observer: "_infoChanged"
+        }
+
+      },
+
+      _infoChanged: function(info) {
+        if(info) {
+          this.$.infoArea.show();
+        } else {
+          this.$.infoArea.hide();
+        }
+      },
+
+      checkForEnter: function(e) {
+        if(e.keyCode === 13) {
+          this.createNewAccount();
+        };
+      },
+
+      saveHome:function(){
+        this.$.homeDB.path=null;
+        this.$.homeDB.data={
+          details:{
+            name:"Please set home name."
+          },
+          users:{}
+        };
+        return this.$.homeDB.save('/homes',null);
+      },
+
+      saveHomeIndex:function(){
+        var homePath = '/homes';
+        this.homeUID = this.$.homeDB.path.slice(homePath.length+1);
+        return this.$.homeIndexDB.setStoredValue("/homeIndex/"+this.homeUID, this.homeUID)
+      },
+
+      saveHomeAdmin:function(username){
+        this.$.userDB.path=null;
+        this.$.userDB.data={
+          role:'admin',
+          home:this.homeUID,
+          email:username
+        };
+        return this.$.userDB.save('/homes/'+this.homeUID+'/users', this.user.uid)
+      },
+
+      saveUserIndex:function(){
+        this.$.userIndexDB.path=null;
+        this.$.userIndexDB.data={
+          home:this.homeUID
+        };
+        return this.$.userIndexDB.save('/userIndex', this.user.uid)
+      },
+
+      sendEmailVerification:function(){
+        return this.user.sendEmailVerification();
+      },
+
+      //function to create new user for new home
+      createNewAccount:function(){
+        this.info = null;
+        if(!this.username || !this.password) {
+          this.info = "Please enter a username or password to sign up.";
+          return;
+        };
+        this.info="Signing you up. Please wait...";
+        //create new user for new home
+        var that = this;
+        this.$.auth.createUserWithEmailAndPassword(this.username, this.password)
+        .then(function(user){
+          console.log(that.user);
+          console.log(user);
+          that.saveHome()
+          .then(function(home){
+            that.saveHomeIndex()
+            .then(function(homeIndex){
+              that.saveHomeAdmin(that.username)
+              .then(function(admin){
+                that.saveUserIndex()
+                .then(function(userIndex){
+                  that.sendEmailVerification()
+                  .then(function(ver) {
+                    that.fire("openToast",{toastText:"Verification Email sent."});
+                    that.info="You have been signed up. Please check your email to verify. Redirecting you to the app in 5 seconds.";
+                    setTimeout(function() {
+                      that.info = null;
+                      window.location="https://app.mosaic-care.com/";
+                    }, 5000);
+
+                  })
+                })
+              })
+            })
+          })
+        })
+        .catch(function(error){
+          console.log(error);
+          that.info="Something went wrong... Sorry!";
+          that.fire("openToast",{toastText:error});
+        })
+      }
+
+    });
+  </script>
+</dom-module>
