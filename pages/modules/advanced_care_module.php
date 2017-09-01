@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Mosaic Care | Care Home Management Software Solution</title>
+    <title>Advanced Care Module | Mosaic</title>
     <meta name="description" content="DESCRIPTION">
     <meta name="viewport" content="width=device-width, initial-scale=1">
    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
@@ -28,7 +28,7 @@
         </div>
 
         <div class="col-md-8">
-          <h2>Advanced Care</h2>
+          <h1>Advanced Care</h1>
           <h3>
             What is the Advanced Care Module?
           </h3>

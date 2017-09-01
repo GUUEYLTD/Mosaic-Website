@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Mosaic Care | Care Home Management Software Solution</title>
+    <title>Mosaic Features | Care Home Management Software</title>
     <meta name="description" content="DESCRIPTION">
     <meta name="viewport" content="width=device-width, initial-scale=1">
  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">

@@ -194,16 +194,20 @@ body {
 }
 
 .footer h2 {
-  font-size: 36px;
+  font-size: 18px;
   font-weight: 300;
   text-align: left;
   color: #ffffff;
 }
 
 .footer p {
-  font-size: 20px;
+  font-size: 18px;
   text-align: left;
   color: #838c98;
+}
+
+.footer .startnow p {
+  color: #fff;
 }
 
 .footer .button-col {
@@ -262,7 +266,7 @@ body {
  /*  margin-right: 60px; */
 }
 
-.single-module-header h2 {
+.single-module-header h1 {
   font-size: 42px;
   font-weight: 300;
   text-align: left;
@@ -275,6 +279,10 @@ body {
   text-align: left;
   color: #838c98;
   margin-bottom: 22px;
+}
+
+.single-module-header h4 {
+  font-size: 24px;
 }
 
 .single-module-header p {

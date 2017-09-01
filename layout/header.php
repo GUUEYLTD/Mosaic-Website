@@ -18,24 +18,24 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Modules</a>
           <ul class="dropdown-menu">
-            <li><a href="/pages/modules/care_plan_module.php">Care Plan</a></li>
-            <li><a href="/pages/modules/administrator_module.php">Administrator</a></li>
-            <li><a href="/pages/modules/advanced_care_module.php">Advanced Care</a></li>
-            <li><a href="/pages/modules/analytics_module.php">Analytics</a></li>
-            <li><a href="/pages/modules/health_and_safety_module.php">Health & Safety</a></li>
-            <li><a href="/pages/modules/meal_planning_module.php">Meal Planning</a></li>
-            <li><a href="/pages/modules/medication_module.php">Medication</a></li>
-            <li><a href="/pages/modules/policies_and_procedures_module.php">Policies & Procedures</a></li>
-            <li><a href="/pages/modules/reporting_module.php">Reporting</a></li>
-            <li><a href="/pages/modules/staff_manager_module.php">Staff Manager</a></li>
-            <li><a href="/pages/modules/training_module.php">Training</a></li>
-            <li><a href="/pages/modules/communication_module.php">Communication</a></li>
+            <li><a href="/pages/modules/care_plan_module">Care Plan</a></li>
+            <li><a href="/pages/modules/administrator_module">Administrator</a></li>
+            <li><a href="/pages/modules/advanced_care_module">Advanced Care</a></li>
+            <li><a href="/pages/modules/analytics_module">Analytics</a></li>
+            <li><a href="/pages/modules/health_and_safety_module">Health & Safety</a></li>
+            <li><a href="/pages/modules/meal_planning_module">Meal Planning</a></li>
+            <li><a href="/pages/modules/medication_module">Medication</a></li>
+            <li><a href="/pages/modules/policies_and_procedures_module">Policies & Procedures</a></li>
+            <li><a href="/pages/modules/reporting_module">Reporting</a></li>
+            <li><a href="/pages/modules/staff_manager_module">Staff Manager</a></li>
+            <li><a href="/pages/modules/training_module">Training</a></li>
+            <li><a href="/pages/modules/communication_module">Communication</a></li>
           </ul>
         </li>
-        <li><a href="/pages/benefits.php">Features</a></li>
-        <li><a href="/pages/contact.php">Contact</a></li>
-        <li><a href="/pages/about.php">About</a></li>
-        <li><a href="/pages/support.php">Support</a></li>
+        <li><a href="/pages/features">Features</a></li>
+        <li><a href="/pages/contact">Contact</a></li>
+        <li><a href="/pages/about-us">About</a></li>
+        <li><a href="/pages/support-and-faq">Support</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->

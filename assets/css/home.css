@@ -76,6 +76,10 @@
   text-align: center;
 }
 
+.home-modules-container {
+  padding-bottom: 50px;
+}
+
 .home-modules-container .row {
   margin-top: 0px;
 }
@@ -110,11 +114,11 @@
 }
 
 .home-modules-container .card h4 {
-  font-size: 20px;
+  font-size: 24px;
   text-align: center;
   color: #434a54;
   flex-basis: 1;
-  font-weight: 100;
+  font-weight: bold;
 }
 
 .home-modules-container .card .card-block {
@@ -167,10 +171,10 @@
 }
 
 .home-features-container > h2 {
-  margin-top: 100px;
+  margin-top: 50px;
   font-size: 36px;
   font-weight: 300;
-  text-align: left;
+  text-align: center;
   color: #434a54;
 }
 
@@ -453,12 +457,14 @@
   margin-bottom: 50px;
 }
 
-.our_modules .heading h3 {
+.our_modules .heading h2 {
   margin-top: 20px;
   margin-bottom: 20px;
+  text-align: center;
+  font-size: 36px;
 }
 
-.home-benefits-container h4, .home-benefits-container h2, .home-benefits-container p {
+.home-benefits-container h4, .home-benefits-container p {
   text-align: left;
 }
 
@@ -467,7 +473,7 @@
 }
 
 .home-benefits-container h4, .h4style {
-  font-size: 24px;
+  font-size: 18px;
   color: #838c98;
   margin-bottom: 20px;
   margin-top: 20px;
@@ -490,7 +496,11 @@ footer .top-row {
 }
 
 .topmargin {
-  margin-top: 18%!important;
+  margin-top: 10%!important;
 }
 
+.nopadding p {
+  padding-left: 0;
+  padding-right: 0;
+}
 

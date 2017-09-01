@@ -9,7 +9,7 @@
 
         <h1 id="home-header-text1" class="display-3">An All-In-One Management Software to Improve the Quality of Your Care Home</h1>
 
-        <h1 id="home-header-text2" class="lead">Our point of care app allows you to digitise every aspect of care home management - from treatment plans, to risk assessments, to medication outlines, and even staffing and reporting.</h1>
+        <h2 id="home-header-text2" class="lead">Our point of care app allows you to digitise every aspect of care home management - from treatment plans, to risk assessments, to medication outlines, and even staffing and reporting.</h2>
 
         <mosaic-register></mosaic-register>
 
@@ -21,46 +21,10 @@
 <div class="container-background-grey">
   <div class="container-fluid home-modules-container">
 
-	<div class="row equal white_block">
-      <div class="col-md-12">
-        <strong><p>
-        	Does the idea of reducing errors, saving time, and improving the processes involved in running your care home sound useful? What if doing so also lowered your overhead costs? 
-        </p></strong>
-		<p>
-			With Mosaic Care, there is a better way to manage all the important details and paperwork required to run your facility. It goes far beyond pen, paper, and tedious filing.
-		</p>
-		<p>
-			Built by IT experts using feedback from users with first hand care home experience, Mosaic Care has created a complete modular management system which streamlines all your services & provides you with one platform in which to manage it all.
-		</p>
-		<strong><p>
-        	You can now improve both your existing management processes and the quality of service user treatment. The system addresses all important areas including: 
-        </p></strong>
-        <ul>
-        	<li>Comprehensive assessments</li>
-        	<li>Detailed care plans</li>
-        	<li>Operation analytics</li>
-        	<li>Health and safety compliance</li>
-        	<li>Secure communication</li>
-        	<li>Meal planning</li>
-        	<li>Tracking medications</li>
-        	<li>….and much more</li>
-        </ul>
-        <p>
-        	You can tailor the system, using only the modules you require, to meet the specific needs for your care home. Make reporting, training, communicating, and other administrative tasks fast, easy, and reliable.
-        </p>
-        <p>
-        	Our quality management system is intuitive and easy to use - allowing all workers and managers to complete their administrative tasks quickly and efficiently. 
-        </p>
-        <p>
-        	Here’s a closer look at how Mosaic Care can change the way you run your care home.
-        </p>
-          </div>
-      </div>
-
 
     <div class="row equal our_modules">
 		<div class="heading">
-			<h3>Discover Streamlined Care Home Management<br>Customised Modules Help You Provide Outstanding Service</h3>	
+			<h2>Our Modules</h2>
 		<p>
 			Each module in Mosaic’s management system has been designed to cover the essential daily processes carers and managers experience.
 		</p>
@@ -250,7 +214,7 @@
 
 <div class="container-background-white features-background">
   <div class="container-fluid home-features-container">
-    <h2>Our Advanced Software Features Will Improve The Way You Store and Share Information</h2>
+    <h2>Our Advanced Software Features</h2>
     <p>
       Mosaic offers a wide range of advanced features guaranteeing you the most effective way of updating how you access and store information. Here are some of our features:
     </p>
@@ -334,17 +298,20 @@
           <!-- <div class="col-md-12">
             <button class="btn btn-primary mosaic-action-button" onclick="location.href='/pages/benefits.php'">see all features <span class="glyphicon glyphicon-chevron-right"></span></button> <a class="mosaic-link" href="/pages/data_security_policy.php">Read about our data security and privacy policy <span class="glyphicon glyphicon-chevron-right"></span></a>
           </div> -->
-          <div class="col-md-12 our_modules">
-          	<p>
-          		Whether you’re looking to improve data quality, make it easier for staff to communicate, or provide better service - Mosaic can help you do it all. Our comprehensive software can save you time, space, and money, allowing your team to focus on what matters most: service user care.
-          	</p>
-          	<p>
-          		Here’s why choosing Mosaic is the best option for your care home:
-          	</p>
-          </div>
+
 
         </div>
       </div>
+
+      <div class="col-md-12 our_modules nopadding">
+          <p>
+              Whether you’re looking to improve data quality, make it easier for staff to communicate, or provide better service - Mosaic can help you do it all. Our comprehensive software can save you time, space, and money, allowing your team to focus on what matters most: service user care.
+          </p>
+          <p>
+              Here’s why choosing Mosaic is the best option for your care home:
+          </p>
+      </div>
+
     </div>
 
   </div>
@@ -353,13 +320,12 @@
 
 <div class="container-background-grey">
   <div class="container-fluid home-benefits-container">
-    <h2>Change The Way You Work: See How Using Care Home Management Software Streamlines Your Processes So You Can Focus On Providing Great Service</h2>
-    <h4>Why Should You Use Mosaic?</h4>
+    <h2>Why Use Care Home Management Software?</h2>
     <p>
       Mosaic gives care homes the tools to provide outstanding services. Your staff will spend less time filling out and organising paperwork and more time with your residents.
     </p>
     <p>
-   	 Here are the main benefits: 
+   	 Here are the main benefits:
     </p>
 
     <div class="row">
@@ -385,21 +351,21 @@
 
       <div class="col-md-4 home-benefit-item">
 
-        <img src="/assets/images/featureBenefitIcons/assets/imporoveProcesses/teal/96x96.png" alt="Improve processes and save time"/>
+        <img src="/assets/images/featureBenefitIcons/assets/paperlessRecordKeeping/indigo/96x96.png" alt="Improve processes and save time"/>
         <h3>Saved space</h3>
         <p>Eliminate the need for additional storage space.</p>
       </div>
 
       <div class="col-md-4 home-benefit-item">
 
-        <img src="/assets/images/featureBenefitIcons/assets/imporoveProcesses/teal/96x96.png" alt="Improve processes and save time"/>
+        <img src="/assets/images/featureBenefitIcons/assets/notesStoredSafely/indigo/96x96.png" alt="Improve processes and save time"/>
         <h3>Increased security</h3>
         <p>Reduce the risk of losing important documents or having unauthorised access to sensitive service user information.</p>
       </div>
 
       <div class="col-md-4 home-benefit-item">
 
-        <img src="/assets/images/featureBenefitIcons/assets/imporoveProcesses/teal/96x96.png" alt="Improve processes and save time"/>
+        <img src="/assets/images/featureBenefitIcons/assets/improveOutcomes/indigo/96x96.png" alt="Improve processes and save time"/>
         <h3>Increased data quality</h3>
         <p>Higher quality of your data records by removing obstacles like spelling errors and illegible handwriting. </p>
       </div>
