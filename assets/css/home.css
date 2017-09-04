@@ -114,9 +114,10 @@
 }
 
 .home-modules-container .card h4 {
-  font-size: 24px;
+  font-size: 20px;
   text-align: center;
   color: #434a54;
+  letter-spacing: 1px;
   flex-basis: 1;
   font-weight: bold;
 }
@@ -281,7 +282,7 @@
   }
 
   .home-modules-container .col-md-3 {
-    width: 24.5%;
+    width: 25%;
   }
 }
 
@@ -495,12 +496,11 @@ footer .top-row {
   position: relative;
 }
 
-.topmargin {
-  margin-top: 10%!important;
-}
-
 .nopadding p {
   padding-left: 0;
   padding-right: 0;
 }
 
+.home-benefit-item p {
+	    color: #838c98;
+}

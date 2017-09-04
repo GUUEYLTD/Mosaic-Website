@@ -7,9 +7,9 @@
 
       <div class="col-sm-8">
 
-        <h1 id="home-header-text1" class="display-3">An All-In-One Management Software to Improve the Quality of Your Care Home</h1>
+        <h1 id="home-header-text1" class="display-3">An All-In-One Management Software to Improve the<br>Quality of Your Care Home</h1>
 
-        <h2 id="home-header-text2" class="lead">Our point of care app allows you to digitise every aspect of care home management - from treatment plans, to risk assessments, to medication outlines, and even staffing and reporting.</h2>
+        <h2 id="home-header-text2" class="lead">Our point of care app allows you to digitise every aspect of care home management - <br>from treatment plans, to rish assessments, to medication outlines, and even staffing and reporting.</h2>
 
         <mosaic-register></mosaic-register>
 

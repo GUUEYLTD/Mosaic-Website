@@ -211,7 +211,7 @@
 
         <div class="col-md-4 col-xs-12">
           <div class="card">
-            <img class="card-img-top img-responsive" src="/assets/images/featureBenefitIcons/assets/comprehensive/blue/144x144.png" alt="Care Plan Module" />
+            <img class="card-img-top img-responsive" src="/assets/images/featureBenefitIcons/assets/realTimeMonitoring/blue/144x144.png" alt="Care Plan Module" />
             <div class="card-block">
               <h4>Real-time Monitoring</h4>
               <p class="card-text">
@@ -223,7 +223,7 @@
 
         <div class="col-md-4 col-xs-12">
           <div class="card">
-            <img class="card-img-top img-responsive" src="/assets/images/featureBenefitIcons/assets/comprehensive/indigo/144x144.png" alt="Care Plan Module" />
+            <img class="card-img-top img-responsive" src="/assets/images/featureBenefitIcons/assets/offlineMode/indigo/144x144.png" alt="Care Plan Module" />
             <div class="card-block">
               <h4>Offline Mode</h4>
               <p class="card-text">
@@ -249,7 +249,7 @@
 
         <div class="col-md-4 col-xs-12">
           <div class="card">
-            <img class="card-img-top img-responsive" src="/assets/images/featureBenefitIcons/assets/comprehensive/indigo/144x144.png" alt="Care Plan Module" />
+            <img class="card-img-top img-responsive" src="/assets/images/featureBenefitIcons/assets/onboardingAndTraining/indigo/144x144.png" alt="Care Plan Module" />
             <div class="card-block">
               <h4>Onboarding & Training</h4>
               <p class="card-text">

@@ -21,11 +21,11 @@
       <div class="row bottom-row equal">
         <div class="col-md-6">
           <a class="footer-link">GUUEY LTD <?php echo date("Y") ?></a>
-          <a href="/pages/blog" class="footer-link">Blog</a>
-          <a href="/pages/about-us" class="footer-link">About</a>
-          <a href="/pages/contact" class="footer-link">Contact</a>
-          <a href="/pages/data_security_policy" class="footer-link">Data Security Policy</a>
-          <a href="/pages/terms_and_conditions" class="footer-link">Terms & Conditions</a>
+          <a href="/pages/blog.php" class="footer-link">Blog</a>
+          <a href="/pages/about-us.php" class="footer-link">About</a>
+          <a href="/pages/contact.php" class="footer-link">Contact</a>
+          <a href="/pages/data_security_policy.php" class="footer-link">Data Security Policy</a>
+          <a href="/pages/terms_and_conditions.php" class="footer-link">Terms & Conditions</a>
         </div>
 
         <div class="col-md-6 button-col">

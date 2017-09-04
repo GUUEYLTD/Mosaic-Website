@@ -6,7 +6,7 @@
 	width: 49%;
 }
 
-.single-module-content .col-md-12 h2, .single-module-content .col-md-12 p {
+.single-module-content .col-md-12 h2 {
 	text-align: center;
 }
 
@@ -17,10 +17,6 @@
 
 .careplan_benefits p {
 	text-align: left!important;
-}
-
-.careplan_benefits h2+p {
-	text-align: center!important;
 }
 
 .careplan_items {

@@ -185,6 +185,8 @@ body {
 .footer {
   min-height: 358px;
   background-color: #283038;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .footer .top-row {
