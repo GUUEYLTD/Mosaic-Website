@@ -26,7 +26,7 @@
         <div class="col-md-12">
           <h2>All articles</h2>	
 		  <ul class="article_list">
-		  	<li><a href="/pages/articles/article1.php">
+		  	<li><a href="/pages/articles/article1">
 		  			<h3>Welcome Mosaic!</h3>
 		  	</a></li>
 		  </ul>

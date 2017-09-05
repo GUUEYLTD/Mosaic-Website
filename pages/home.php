@@ -7,9 +7,9 @@
 
       <div class="col-sm-8">
 
-        <h1 id="home-header-text1" class="display-3">An All-In-One Management Software to Improve the<br>Quality of Your Care Home</h1>
+        <h1 id="home-header-text1" class="display-3">An All-In-One Management Software Solution to Improve the<br>Quality of Your Care Home</h1>
 
-        <h2 id="home-header-text2" class="lead">Our point of care app allows you to digitise every aspect of care home management - <br>from treatment plans, to rish assessments, to medication outlines, and even staffing and reporting.</h2>
+        <h2 id="home-header-text2" class="lead">Our point of care app allows you to digitise every aspect of care home management - <br>from treatment plans, to risk assessments, medication, staffing, reporting and more.</h2>
 
         <mosaic-register></mosaic-register>
 
@@ -24,15 +24,15 @@
 
     <div class="row equal our_modules">
 		<div class="heading">
-			<h2>Our Modules</h2>
+			<h2 id="our_modules_text">Our Modules</h2>
 		<p>
 			Each module in Mosaic’s management system has been designed to cover the essential daily processes carers and managers experience.
 		</p>
 		<p>
-			Prevent wasting valuable time on having your employees fill paperwork out by hand. Lost documents and additional filing cabinets can become a thing of the past. Don’t risk your patient care on deciphering bad handwriting, which could lead to harmful mistakes. 	
+			Prevent wasting valuable time on having your employees fill paperwork out by hand. Lost documents and additional filing cabinets can become a thing of the past. Don’t risk your patient care on deciphering bad handwriting, which could lead to harmful mistakes.
 		</p>
 		<p>
-			There is a better way. Here are some of the modules Mosaic Care offers to help run your facility: 
+			There is a better way. Here are some of the modules Mosaic Care offers to help run your facility:
 		</p>
 		</div>
       <div class="col-md-3 col-sm-6 col-xs-12">
@@ -44,7 +44,7 @@
           </p>
           <div class="flex-container">
             <a href="/" class="btn btn-default">Start</a>
-            <a href="/pages/modules/care_plan_module.php" class="btn btn-default">More Info</a>
+            <a href="/pages/modules/care_plan_module" class="btn btn-default">More Info</a>
           </div>
         </div>
       </div>
@@ -58,7 +58,7 @@
           </p>
           <div class="flex-container">
             <a href="/" class="btn btn-default">Start</a>
-            <a href="/pages/modules/administrator_module.php" class="btn btn-default">More Info</a>
+            <a href="/pages/modules/administrator_module" class="btn btn-default">More Info</a>
           </div>
         </div>
       </div>
@@ -72,7 +72,7 @@
           </p>
           <div class="flex-container">
             <a href="/" class="btn btn-default">Start</a>
-            <a href="/pages/modules/advanced_care_module.php" class="btn btn-default">More Info</a>
+            <a href="/pages/modules/advanced_care_module" class="btn btn-default">More Info</a>
           </div>
         </div>
       </div>
@@ -86,7 +86,7 @@
           </p>
           <div class="flex-container">
             <a href="/" class="btn btn-default">Start</a>
-            <a href="/pages/modules/analytics_module.php" class="btn btn-default">More Info</a>
+            <a href="/pages/modules/analytics_module" class="btn btn-default">More Info</a>
           </div>
         </div>
       </div>
@@ -100,7 +100,7 @@
           </p>
           <div class="flex-container">
             <a href="/" class="btn btn-default">Start</a>
-            <a href="/pages/modules/communication_module.php" class="btn btn-default">More Info</a>
+            <a href="/pages/modules/communication_module" class="btn btn-default">More Info</a>
           </div>
         </div>
       </div>
@@ -114,7 +114,7 @@
           </p>
           <div class="flex-container">
             <a href="/" class="btn btn-default">Start</a>
-            <a href="/pages/modules/health_and_safety_module.php" class="btn btn-default">More Info</a>
+            <a href="/pages/modules/health_and_safety_module" class="btn btn-default">More Info</a>
           </div>
         </div>
       </div>
@@ -128,7 +128,7 @@
           </p>
           <div class="flex-container">
             <a href="/" class="btn btn-default">Start</a>
-            <a href="/pages/modules/meal_planning_module.php" class="btn btn-default">More Info</a>
+            <a href="/pages/modules/meal_planning_module" class="btn btn-default">More Info</a>
           </div>
         </div>
       </div>
@@ -142,7 +142,7 @@
           </p>
           <div class="flex-container">
             <a href="/" class="btn btn-default">Start</a>
-            <a href="/pages/modules/medication_module.php" class="btn btn-default">More Info</a>
+            <a href="/pages/modules/medication_module" class="btn btn-default">More Info</a>
           </div>
         </div>
       </div>
@@ -156,7 +156,7 @@
           </p>
           <div class="flex-container">
             <a href="/" class="btn btn-default">Start</a>
-            <a href="/pages/modules/policies_and_procedures_module.php" class="btn btn-default">More Info</a>
+            <a href="/pages/modules/policies_and_procedures_module" class="btn btn-default">More Info</a>
           </div>
         </div>
       </div>
@@ -170,7 +170,7 @@
           </p>
           <div class="flex-container">
             <a href="/" class="btn btn-default">Start</a>
-            <a href="/pages/modules/reporting_module.php" class="btn btn-default">More Info</a>
+            <a href="/pages/modules/reporting_module" class="btn btn-default">More Info</a>
           </div>
         </div>
       </div>
@@ -184,7 +184,7 @@
           </p>
           <div class="flex-container">
             <a href="/" class="btn btn-default">Start</a>
-            <a href="/pages/modules/staff_manager_module.php" class="btn btn-default">More Info</a>
+            <a href="/pages/modules/staff_manager_module" class="btn btn-default">More Info</a>
           </div>
         </div>
       </div>
@@ -198,12 +198,12 @@
           </p>
           <div class="flex-container">
             <a href="/" class="btn btn-default">Start</a>
-            <a href="/pages/modules/training_module.php" class="btn btn-default">More Info</a>
+            <a href="/pages/modules/training_module" class="btn btn-default">More Info</a>
           </div>
         </div>
       </div>
       <p>
-      	No matter your needs, our comprehensive system is easily customisable, to ensure it addresses all aspects of running a care home - making it more efficient, organised, and allows for real-time monitoring you can rely on.  
+      	No matter your needs, our comprehensive system is easily customisable, to ensure it addresses all aspects of running a care home - making it more efficient, organised, and allows for real-time monitoring you can rely on.
       </p>
       <p>
       	Here’s a closer look at the other benefits of using Mosaic Care.
@@ -296,7 +296,7 @@
           </div>
 
           <!-- <div class="col-md-12">
-            <button class="btn btn-primary mosaic-action-button" onclick="location.href='/pages/benefits.php'">see all features <span class="glyphicon glyphicon-chevron-right"></span></button> <a class="mosaic-link" href="/pages/data_security_policy.php">Read about our data security and privacy policy <span class="glyphicon glyphicon-chevron-right"></span></a>
+            <button class="btn btn-primary mosaic-action-button" onclick="location.href='/pages/benefits'">see all features <span class="glyphicon glyphicon-chevron-right"></span></button> <a class="mosaic-link" href="/pages/data_security_policy">Read about our data security and privacy policy <span class="glyphicon glyphicon-chevron-right"></span></a>
           </div> -->
 
 
@@ -370,11 +370,11 @@
         <p>Higher quality of your data records by removing obstacles like spelling errors and illegible handwriting. </p>
       </div>
 
-		
+
       <div class="col-md-12">
 		<p class="h4style">Using Mosaic is an excellent way to update the way you run your home, saving you time, space, and money. It’s time to leave the outdated management methods in the past and step toward the best comprehensive software available today.</p>
 
-        <a class="mosaic-link" href="/pages/benefits.php">Learn more about the benefits of mosaic <span class="glyphicon glyphicon-chevron-right"></span></a>
+        <a class="mosaic-link" href="/pages/benefits">Learn more about the benefits of mosaic <span class="glyphicon glyphicon-chevron-right"></span></a>
       </div>
 
     </div>
@@ -397,9 +397,9 @@ jQuery( document ).ready(function() {
   	            $(this).attr('data-src', source);
   	            $(this).removeAttr('src');
   	        }
-  	        
+
   	    })
-      
+
   	})
   } else {
       $.each($('.card-img-top'), function() {
