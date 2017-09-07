@@ -18,24 +18,30 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Modules</a>
           <ul class="dropdown-menu">
-            <li><a href="/pages/modules/care_plan_module">Care Plan</a></li>
-            <li><a href="/pages/modules/administrator_module">Administrator</a></li>
-            <li><a href="/pages/modules/advanced_care_module">Advanced Care</a></li>
-            <li><a href="/pages/modules/analytics_module">Analytics</a></li>
-            <li><a href="/pages/modules/health_and_safety_module">Health & Safety</a></li>
-            <li><a href="/pages/modules/meal_planning_module">Meal Planning</a></li>
-            <li><a href="/pages/modules/medication_module">Medication</a></li>
-            <li><a href="/pages/modules/policies_and_procedures_module">Policies & Procedures</a></li>
-            <li><a href="/pages/modules/reporting_module">Reporting</a></li>
-            <li><a href="/pages/modules/staff_manager_module">Staff Manager</a></li>
-            <li><a href="/pages/modules/training_module">Training</a></li>
-            <li><a href="/pages/modules/communication_module">Communication</a></li>
+            <li><a href="/modules/care_plan_module">Care Plan</a></li>
+            <li><a href="/modules/administrator_module">Administrator</a></li>
+            <li><a href="/modules/advanced_care_module">Advanced Care</a></li>
+            <li><a href="/modules/analytics_module">Analytics</a></li>
+            <li><a href="/modules/health_and_safety_module">Health & Safety</a></li>
+            <li><a href="/modules/meal_planning_module">Meal Planning</a></li>
+            <li><a href="/modules/medication_module">Medication</a></li>
+            <li><a href="/modules/policies_and_procedures_module">Policies & Procedures</a></li>
+            <li><a href="/modules/reporting_module">Reporting</a></li>
+            <li><a href="/modules/staff_manager_module">Staff Manager</a></li>
+            <li><a href="/modules/training_module">Training</a></li>
+            <li><a href="/modules/communication_module">Communication</a></li>
           </ul>
         </li>
-        <li><a href="/pages/features">Features</a></li>
-        <li><a href="/pages/contact">Contact</a></li>
-        <li><a href="/pages/about-us">About</a></li>
-        <li><a href="/pages/support-and-faq">Support</a></li>
+        <li><a href="/features">Features</a></li>
+        <li><a href="/contact">Contact</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About</a>
+          <ul class="dropdown-menu">
+            <li><a href="/about-us">About</a></li>
+            <li><a href="/blog" class="footer-link">Blog</a></li>
+          </ul>
+        </li>
+        <li><a href="/support-and-faq">Support</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
