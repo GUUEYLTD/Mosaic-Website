@@ -38,7 +38,7 @@
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About</a>
           <ul class="dropdown-menu">
             <li><a href="/about-us">About</a></li>
-            <li><a href="/blog" class="footer-link">Blog</a></li>
+            <li><a href="/blog">Blog</a></li>
           </ul>
         </li>
         <li><a href="/support-and-faq">Support</a></li>

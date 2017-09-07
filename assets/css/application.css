@@ -629,7 +629,10 @@ body {
   }
   .navbar-brand {
     padding-left: 0;
-  } 
+  }
+  .single-module-header h1 {
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 369px) {
